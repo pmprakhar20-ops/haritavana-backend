@@ -24,6 +24,7 @@ app.use('/api/customers',  require('./routes/customers'));
 app.use('/api/admin',      require('./routes/admin'));
 app.use('/api/delivery',   require('./routes/delivery'));
 app.use('/api/settings',   require('./routes/settings'));
+app.use('/api/reviews',    require('./routes/reviews'));
 
 // ── HEALTH CHECK ──
 app.get('/', (req, res) => {
